@@ -8,6 +8,10 @@ public class KeyBoardMovement : MonoBehaviour
 
     [SerializeField]
     int speed = 50;
+    int Direction = 0;
+    public int direction
+    { get { return Direction; } }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,10 +30,17 @@ public class KeyBoardMovement : MonoBehaviour
         if (Input.GetKey("a"))
         {
             rb2d.velocity = new Vector2(-speed, rb2d.velocity.y);
+            Direction = 3;
         }
-        if (Input.GetKey("d"))
+        else if (Input.GetKey("d"))
         {
             rb2d.velocity = new Vector2(speed, rb2d.velocity.y);
+            Direction = 4;
+        }
+        else
+        {
+            //rb2d.velocity = new Vector2(rb2d.velocity.x, rb2d.velocity.y);
+            Direction = 0;
         }
     }
 }
