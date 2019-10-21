@@ -138,17 +138,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 120
-        width: 40
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 144
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00da7def2580df94997abb8678ce6a3c
+      spriteID: b9f6f41903be9b44dbedf869acd214e0
       internalID: -7161092549207059899
       vertices: []
       indices: 
@@ -158,18 +158,18 @@ TextureImporter:
       name: JudasRunCycle_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 120
-        width: 40
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 144
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af7e3f2b4b9b14f47b62a398aacf621d
+      spriteID: 0c397ad922ac5ef459cc35b3412169a9
       internalID: -9082727252785359635
       vertices: []
       indices: 
@@ -179,18 +179,18 @@ TextureImporter:
       name: JudasRunCycle_2
       rect:
         serializedVersion: 2
-        x: 80
-        y: 120
-        width: 40
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 144
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7d373cab553e3f4886a6a29ae46ce56
+      spriteID: c0bd39227e1a5184ea126e0668909205
       internalID: 2142367585012369667
       vertices: []
       indices: 
@@ -200,18 +200,18 @@ TextureImporter:
       name: JudasRunCycle_3
       rect:
         serializedVersion: 2
-        x: 120
-        y: 120
-        width: 40
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 144
+        y: 144
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d5ab598bdf8a214296d4a8dd9cb5ee6
+      spriteID: f65dc9e84a88a3449a98e5ccfd00d795
       internalID: -5014670911899562399
       vertices: []
       indices: 
@@ -222,17 +222,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 80
-        width: 40
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 96
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab3c58b0103ad744da2159a007416db5
+      spriteID: 0bfd81a82e523d04a9b9673bf216f098
       internalID: -1051310504552142723
       vertices: []
       indices: 
@@ -242,18 +242,18 @@ TextureImporter:
       name: JudasRunCycle_5
       rect:
         serializedVersion: 2
-        x: 40
-        y: 80
-        width: 40
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 96
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63f5e476cbe5cb94ea48f696013f20b8
+      spriteID: 23759daa865129844b42a03d2bee48f9
       internalID: 8844836179809402415
       vertices: []
       indices: 
@@ -263,18 +263,18 @@ TextureImporter:
       name: JudasRunCycle_6
       rect:
         serializedVersion: 2
-        x: 80
-        y: 80
-        width: 40
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 96
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7372aed5898c2349bc50ee26a2bb37e
+      spriteID: 5c71e7f4f40fcf84f9b59d57ae66c7d6
       internalID: -9098283014587391476
       vertices: []
       indices: 
@@ -284,18 +284,18 @@ TextureImporter:
       name: JudasRunCycle_7
       rect:
         serializedVersion: 2
-        x: 120
-        y: 80
-        width: 40
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 144
+        y: 96
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 199d811e4c6783a4287c7db675dadfc9
+      spriteID: 1f67af7fb0b574a45a1909fd7fc247a8
       internalID: 1917238464437994668
       vertices: []
       indices: 
@@ -306,17 +306,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 40
-        width: 40
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 48
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93c58c950c766e84aa74441905005701
+      spriteID: 93fc5d0e317a9c148b51b0954c572d4d
       internalID: -3382891357796830100
       vertices: []
       indices: 
@@ -326,18 +326,18 @@ TextureImporter:
       name: JudasRunCycle_9
       rect:
         serializedVersion: 2
-        x: 40
-        y: 40
-        width: 40
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 48
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d1032c2ead44134a92ea8e269248a6b
+      spriteID: 0acbfd1b560a51844b00f4c30c396d8b
       internalID: -3123035065824673388
       vertices: []
       indices: 
@@ -347,18 +347,18 @@ TextureImporter:
       name: JudasRunCycle_10
       rect:
         serializedVersion: 2
-        x: 80
-        y: 40
-        width: 40
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 48
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 941fcfadca502bd459ba090599ddf9d7
+      spriteID: ca4ab81e66a04b8479ae4eb9eaa6f16a
       internalID: -2031740946584498727
       vertices: []
       indices: 
@@ -368,18 +368,18 @@ TextureImporter:
       name: JudasRunCycle_11
       rect:
         serializedVersion: 2
-        x: 120
-        y: 40
-        width: 40
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 144
+        y: 48
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f35f7f516fba7b843846dae145a370db
+      spriteID: 85bdac50ad5cbf8469cbdedee6e2fe2f
       internalID: -7731377754152330614
       vertices: []
       indices: 
@@ -391,16 +391,16 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 40
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a210cf73208417e459efe68bd7fedec7
+      spriteID: 427c4ccf49e3c29468b1c2c2d04fb5ff
       internalID: 1497231078598920702
       vertices: []
       indices: 
@@ -410,18 +410,18 @@ TextureImporter:
       name: JudasRunCycle_13
       rect:
         serializedVersion: 2
-        x: 40
+        x: 48
         y: 0
-        width: 40
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d26358e49b6dfb54fa195b5e24cc88c2
+      spriteID: 4a3ef74b9378466479ede5be4690e102
       internalID: -2758962262112862191
       vertices: []
       indices: 
@@ -431,18 +431,18 @@ TextureImporter:
       name: JudasRunCycle_14
       rect:
         serializedVersion: 2
-        x: 80
+        x: 96
         y: 0
-        width: 40
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 567e4ebae7b5e8a46840b6cde7a09f34
+      spriteID: f2868d5a1a882264581b3b67e963c8c8
       internalID: 4281937891760064847
       vertices: []
       indices: 
@@ -452,18 +452,18 @@ TextureImporter:
       name: JudasRunCycle_15
       rect:
         serializedVersion: 2
-        x: 120
+        x: 144
         y: 0
-        width: 40
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 632e1ca8984b29d4b977faa68023a45c
+      spriteID: 51e5d2c0763184844928ccf3ddbe1465
       internalID: 3571745259208269815
       vertices: []
       indices: 

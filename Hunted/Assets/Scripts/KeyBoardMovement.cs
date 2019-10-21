@@ -11,6 +11,7 @@ public class KeyBoardMovement : MonoBehaviour
     int Direction = 0;
     public int direction
     { get { return Direction; } }
+    bool slow = false;
 
     // Start is called before the first frame update
     void Start()
@@ -27,19 +28,27 @@ public class KeyBoardMovement : MonoBehaviour
 
     void movement()
     {
-        if (Input.GetKey("a"))
+        if (Input.GetKeyDown("space"))
         {
-            rb2d.velocity = new Vector2(-speed, rb2d.velocity.y);
-            Direction = 3;
+            rb2d.AddForce(new Vector2(0, 3000000));
+            Direction = 1;
         }
         else if (Input.GetKey("d"))
         {
             rb2d.velocity = new Vector2(speed, rb2d.velocity.y);
             Direction = 4;
         }
+        else if(Input.GetKey("a"))
+        {
+            rb2d.velocity = new Vector2(-speed, rb2d.velocity.y);
+            Direction = 3;
+        }
         else
         {
-            //rb2d.velocity = new Vector2(rb2d.velocity.x, rb2d.velocity.y);
+            if (slow == false & rb2d.velocity != new Vector2(0, 0))
+            {
+                rb2d.velocity = new Vector2(rb2d.velocity.x - ((rb2d.velocity.x)/2), rb2d.velocity.y);
+            }
             Direction = 0;
         }
     }
