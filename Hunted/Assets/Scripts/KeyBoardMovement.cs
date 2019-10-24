@@ -28,7 +28,7 @@ public class KeyBoardMovement : MonoBehaviour
 
     void movement()
     {
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("space") & rb2d.velocity.y == 0)
         {
             rb2d.AddForce(new Vector2(0, 3000000));
             Direction = 1;
