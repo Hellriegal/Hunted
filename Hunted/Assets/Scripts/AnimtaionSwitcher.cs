@@ -11,6 +11,7 @@ public class AnimtaionSwitcher : MonoBehaviour
     [SerializeField]
     int aDirection;
     bool updateDirection = true;
+    bool direction = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +35,16 @@ public class AnimtaionSwitcher : MonoBehaviour
 
     void assignDirection()
     {
+        if (KBD.direction == 3)
+        {
+            direction = false;
+        }
+        if (KBD.direction == 4)
+        {
+            direction = true;
+        }
+        
+
         if (updateDirection == true)
         {
             aDirection = KBD.direction;
@@ -53,14 +64,16 @@ public class AnimtaionSwitcher : MonoBehaviour
     void land()
     {
         LayerMask mask = LayerMask.GetMask("Platform");
-        RaycastHit2D hit = Physics2D.Raycast(myTransform.position, Vector2.down, 300, mask);
+        RaycastHit2D hit = Physics2D.Raycast(myTransform.position, Vector2.down, 200, mask);
+        RaycastHit2D GroundTouch = Physics2D.Raycast(myTransform.position, Vector2.down, 1, mask);
 
         if ((aDirection == -3 || aDirection == -1) & hit == true)
         {
-            aDirection = -2;
+            updateDirectionTrue();
         }
-        if (hit == false)
+        if (GroundTouch == false)
         {
+            
             aDirection = -1;
             updateDirection = false;
         }
@@ -68,6 +81,14 @@ public class AnimtaionSwitcher : MonoBehaviour
 
     void switcher()
     {
+        if (direction == false)
+        {
+            sR.flipX = true;
+        }
+        else
+        {
+            sR.flipX = false;
+        }
         switch(aDirection)
         {
             case -2:
@@ -84,11 +105,9 @@ public class AnimtaionSwitcher : MonoBehaviour
                 updateDirection = false;
                 break;
             case 3:
-                sR.flipX = true;
                 anim.Play("JudasRunCycle");
                 break;
             case 4:
-                sR.flipX = false;
                 anim.Play("JudasRunCycle");
                 break;
         }
